@@ -575,7 +575,8 @@ line-number is the number of the item in the todo.txt file (or filename)
 Punch.py - A time tracker for todo.sh
 Version 1.2
 Author: Keith Lawless (keith@keithlawless.com)
-Last updated: July 6,2009
+Additions by: Craig Maloney (craig@decafbad.net)
+Last updated: February 19th, 2022
 License: GPL, http://www.gnu.org/copyleft/gpl.html
 """
 
