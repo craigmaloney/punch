@@ -424,7 +424,7 @@ class Punch(object):
                 self.open_punch_file('r')
                 lines = self.punchFile.readlines()
             if search_term:
-                lines = filter(lambda x: search_term in x, lines)
+                lines = [x for x in lines if search_term in x]
 
             if(len(lines) == 0):
                 print("There are no tasks in the data file.")
